@@ -1,0 +1,42 @@
+{
+  "name": "aken",
+  "version": "1.0.0",
+  "description": "Discord Bot that does many things! Made by Awoken",
+  "main": "aken.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SensionUltra/Aken.git"
+  },
+  "author": "Awoken#3698",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SensionUltra/Aken/issues"
+  },
+  "homepage": "https://github.com/SensionUltra/Aken#readme",
+  "dependencies": {
+    "@discordjs/opus": "^0.4.0",
+    "@distube/ytpl": "^1.0.11",
+    "@reconlx/discord.js": "^1.1.101",
+    "canvacord": "^5.1.0",
+    "colors": "^1.4.0",
+    "discord-xp": "^1.1.8",
+    "discord.js": "^12.5.1",
+    "distube": "^2.8.10",
+    "mongoose": "^5.11.18",
+    "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.1.11",
+    "nodemon": "^2.0.7",
+    "spotify-url-info": "^2.2.0",
+    "youtube-sr": "^4.0.3",
+    "ytdl-core": "^4.5.0",
+    "ytsearcher": "^1.2.3"
+  },
+  "devDependencies": {
+    "ascii-table": "0.0.9",
+    "dotenv": "^8.2.0",
+    "ms": "^2.1.3"
+  }
+}

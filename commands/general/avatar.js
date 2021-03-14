@@ -11,6 +11,7 @@ module.exports = {
 
         const embed = new Discord.MessageEmbed()
             .setTitle('**Avatar**')
+            .setURL(member.user.displayAvatarURL({ dynamic: true, size: 1024 }))
             .setImage(member.user.displayAvatarURL({ dynamic: true, size: 1024 }))
             .setTimestamp()
 

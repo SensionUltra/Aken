@@ -1,4 +1,4 @@
-const config = require("../../../botconfig/config.json")
+const config = require("../../botconfig/config.json")
 module.exports = client => {
   try{
     const stringlength = 69;
